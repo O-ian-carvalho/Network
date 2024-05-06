@@ -1,0 +1,122 @@
+body{
+    background-color: #fbfbfb;
+}
+.body{
+    padding: 20px 50px;
+}
+#newpost{
+    display: flex;
+    justify-content: center;
+}
+#newpost form{
+    width: 480px;
+    height: 120px;
+    display: flex;
+}
+#newpost form textarea{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    padding: 10px;
+    
+}
+#newpost form button{
+    width: 100px;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(250, 250, 250);
+}
+#allposts{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    height: 170px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(0, 0, 255);
+    margin: 5px;
+    margin-bottom: 20px;
+
+}
+.post h3{
+    font-size: 16pt;
+}
+.post p{
+    font-size: 11pt;
+}
+.post div{
+    margin: 2px;
+}
+.post #top{
+    display: flex;
+    justify-content: space-between;
+}
+.post .fa-heart{
+    font-size: 17pt;
+    margin-right: 5px;
+
+}
+.fa-solid{
+    color: #f00;
+}
+.fa-heart:hover{
+    font-size: 20pt;
+    cursor: pointer;
+}
+#down{
+    display: flex;
+}
+
+#profiletop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fbfbfb;
+    border-radius: 30px;
+    padding: 20px;
+    justify-content: center;
+}
+#username{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(149, 149, 149);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 40px;
+}
+#username h3{
+    font-size: 12pt;
+    color: #fff;
+    font-weight: bold;
+}
+
+#follows{
+    display: flex;
+    text-align: center;
+}
+
+#follows h6{
+    font-weight: bold;
+    font-size: 15pt;
+}
+#following{
+    margin-right: 25px;
+}
+#follow{
+    width: 210px;
+    height: 30px;
+    background-color: #00000000;
+    border: 1px solid black;
+    border-radius: 5px;
+}

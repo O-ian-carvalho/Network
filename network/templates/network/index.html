@@ -1,0 +1,66 @@
+{% extends "network/layout.html" %}
+
+{% block body %}
+    
+{% if user.is_authenticated %}
+    <div id="newpost">
+        <div>
+            <form id="sendpost" action="">
+                <textarea id="content" placeholder="Write a new post here!" required name="" id="" cols="" rows=""></textarea>
+                <button>Postar</button>
+            </form>
+        </div>
+    </div>
+{%endif%}
+    <div id="profile">
+        <div id="profiletop">
+            <div id="username">
+                <h3>Username</h3>
+            </div>
+            <div>
+             <div id="follows">
+                
+                <div id="following">
+                    <h6>Following</h6>
+                    <h5>555</h5>
+                </div>
+                <div id="followers">
+                    <h6>followers</h6>
+                    <h5>555</h5>
+                </div>
+            </div>   
+            <button id="follow">Follow</button>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div id="profile">
+        <div id="profiletop">
+            <div id="username">
+                <h3>Username</h3>
+            </div>
+            <div>
+             <div id="follows">
+                
+                <div id="following">
+                    <h6>Following</h6>
+                    <h5>555</h5>
+                </div>
+                <div id="followers">
+                    <h6>followers</h6>
+                    <h5>555</h5>
+                </div>
+            </div>   
+            <button id="follow">Follow</button>
+            </div>
+            
+        </div>
+    </div>
+    <div id="allposts">
+    </div>
+
+
+
+{% endblock %}
